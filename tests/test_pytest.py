@@ -1,0 +1,18 @@
+def test_first_try():
+    print("Hello World!")
+
+
+def test_assert_positive_case():
+    assert (2 + 2) == 4
+
+
+def test_assert_negative_case():
+    assert (2 + 2) == 5, "Operands aren't equal to each other."
+
+
+class TestUserLogin:
+    def test_1(self):
+        pass
+
+    def test_2(self):
+        pass
