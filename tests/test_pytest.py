@@ -7,7 +7,7 @@ def test_assert_positive_case():
 
 
 def test_assert_negative_case():
-    assert (2 + 2) == 5, "Operands aren't equal to each other."
+    assert (2 + 2) == 5
 
 
 class TestUserLogin:
